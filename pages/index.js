@@ -6,7 +6,7 @@ import { Controller, useForm } from 'react-hook-form'
 import { Container, Input } from '@material-ui/core'
 
 import { collection, addDoc } from '@firebase/firestore';
-import db from './config/firebase'
+import db from '../config/firebase'
 
 const yes = '1', no = '0', doNotKnow = '0'
 const patternDate = '/(19[0-9]{2}|20[0-9]{2})(0[1-9]|1[1-2])(0[1-9]|[12][0-9]|3[01])/'
